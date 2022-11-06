@@ -24,7 +24,7 @@
     align-items: center;
     margin: 10px 0;
     padding: 0 12px;
-    width: 1024px;
+    width: 80%;
     height: 120px;
     background: #630fe0;
     animation: 2s circ infinite;
@@ -48,6 +48,10 @@
   .alpha a{
     text-decoration: none;
     text-align: center;
+  }
+.alpha a:hover{
+    color: chartreuse;
+	background-color: darkblue;
   }
    
   .cherche{
