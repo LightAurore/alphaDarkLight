@@ -10,20 +10,25 @@ body{
     justify-content: center;
     align-items: center;
     width: 100vw;
+	min-height: 100vh;
     background-color: aliceblue;
 }
 
 
 .global{
     background-color: rgba(0, 255, 255, 0.1);
-    width: 1080px;
-    height: 900px;
+    width: 80%;
+    min-height: 900px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*        HEADER      */
 
 header{
-    width: 1080px;
+    width: 80%;
     height: 150px;
     background-color: rgba(153, 50, 204, 0.1);
 }
@@ -33,7 +38,7 @@ header{
 
 /*            NAV     */
 .nav-menu{
-    width: 1080px;
+    width: 80%;
     height: 25px;
     background-color: rgba(0, 255, 255, 0.1);
     
@@ -59,7 +64,7 @@ header{
 /*                MAIN      */
 main{
     display: flex;
-    width: 1080px;
+    width: 80%;
     height: 500px;
     background-color: rgba(210, 105, 30, 0.1);
 }
@@ -96,7 +101,7 @@ aside{
 
 /*                FOOTER        */
 footer{
-    width: 1080px;
+    width: 80%;
     height: 150px;
     background-color: rgba(0, 0, 255, 0.1);
 }
